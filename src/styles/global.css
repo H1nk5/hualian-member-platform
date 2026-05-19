@@ -1,0 +1,58 @@
+:root {
+  --primary: #409eff;
+  --success: #67c23a;
+  --warning: #e6a23c;
+  --danger: #f56c6c;
+  --bg: #f5f7fa;
+  --card: #ffffff;
+  --text: #303133;
+  --text-secondary: #909399;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+.page-container {
+  padding: 20px;
+}
+
+.stat-card {
+  background: var(--card);
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+}
+
+.stat-card .label {
+  font-size: 14px;
+  color: var(--text-secondary);
+  margin-bottom: 8px;
+}
+
+.stat-card .value {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.stat-card .trend {
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+.stat-card .trend.up {
+  color: var(--success);
+}
+
+.stat-card .trend.down {
+  color: var(--danger);
+}
