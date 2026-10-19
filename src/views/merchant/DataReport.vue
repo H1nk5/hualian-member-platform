@@ -84,7 +84,7 @@
 
 <script setup>
 import { ref, onMounted } from 'vue'
-import * as echarts from 'echarts'
+import * as echarts from '../../utils/echarts'
 
 const timeRange = ref('month')
 const chartMetric = ref('revenue')

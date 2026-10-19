@@ -89,7 +89,7 @@
 
 <script setup>
 import { ref, computed, onMounted, watch } from 'vue'
-import * as echarts from 'echarts'
+import * as echarts from '../../utils/echarts'
 import { users, levelStats } from '../../mock/users'
 import { merchants } from '../../mock/merchants'
 import { coupons } from '../../mock/coupons'

@@ -4,8 +4,8 @@
       <div class="status-bar">
         <span>9:41</span>
         <span class="status-icons">
-          <el-icon><Wifi /></el-icon>
-          <el-icon><Battery /></el-icon>
+          <el-icon><Connection /></el-icon>
+          <el-icon><Cellphone /></el-icon>
         </span>
       </div>
 
